@@ -1,0 +1,39 @@
+
+:root{--bg:#fcfaf6;--fg:#23201c;--muted:#6d665c;--line:#e2dbcf;--accent:#8a5a2b;
+      --card:#f5f0e7;--tint:#fff;--warm:#b3762f}
+@media(prefers-color-scheme:dark){:root{--bg:#171512;--fg:#ece7de;--muted:#a49b8d;
+      --line:#332e27;--accent:#d9a25e;--card:#201d18;--tint:#1c1915;--warm:#e0b070}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);line-height:1.85;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Mincho ProN","Yu Mincho",serif}
+.wrap{max-width:780px;margin:0 auto;padding:28px 20px 80px}
+header.site{border-bottom:2px solid var(--accent);padding-bottom:14px;margin-bottom:30px}
+header.site a{color:var(--fg);text-decoration:none;font-size:21px;letter-spacing:.06em}
+header.site p{color:var(--muted);font-size:13.5px;margin:8px 0 0}
+h1{font-size:25px;line-height:1.5;margin:26px 0 10px;letter-spacing:.02em}
+h2{font-size:19px;margin:38px 0 12px;padding-left:11px;border-left:4px solid var(--accent)}
+h3{font-size:16.5px;margin:26px 0 8px;color:var(--accent)}
+p{margin:14px 0}
+a{color:var(--accent)}
+blockquote{margin:16px 0;padding:11px 15px;background:var(--card);border-radius:4px;
+  color:var(--muted);font-size:13.5px;line-height:1.75}
+.table-wrap{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:400px;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif}
+th,td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left}
+th{background:var(--card);white-space:nowrap;font-weight:600;font-size:12.5px}
+.chart{width:100%;height:auto;color:var(--accent);margin:14px 0;display:block}
+.pref{margin:30px 0 8px;font-size:15px;color:var(--muted);letter-spacing:.14em;
+  border-bottom:1px solid var(--line);padding-bottom:5px}
+.areas{list-style:none;padding:0;margin:0;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:10px}
+.areas li{border:1px solid var(--line);border-radius:5px;padding:12px 14px;background:var(--tint)}
+.areas a{text-decoration:none;font-weight:600;font-size:15px;display:block}
+.areas .m{color:var(--muted);font-size:12.5px;margin-top:5px;
+  font-family:ui-monospace,Menlo,monospace}
+.lv{display:inline-block;font-size:11px;padding:1px 7px;border-radius:3px;
+  border:1px solid var(--line);color:var(--muted);margin-right:6px}
+.lv.low{color:#2f7d55;border-color:#9ccdb2}
+.lv.high{color:var(--warm);border-color:#e0c092}
+footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);
+  color:var(--muted);font-size:12.5px}
