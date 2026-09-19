@@ -18,10 +18,34 @@ a{color:var(--accent)}
 blockquote{margin:16px 0;padding:11px 15px;background:var(--card);border-radius:4px;
   color:var(--muted);font-size:13.5px;line-height:1.75}
 .table-wrap{overflow-x:auto;margin:16px 0}
-table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:400px;
+/* min-width を持たせると375px幅で表が右にはみ出し、右端の列が画面外に落ちる。
+   施設名の列だけ折り返させて、表そのものは常に画面内に収める。 */
+table{border-collapse:collapse;width:100%;font-size:13.5px;
   font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif}
 th,td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left}
 th{background:var(--card);white-space:nowrap;font-weight:600;font-size:12.5px}
+td:not(:first-child),th:not(:first-child){white-space:nowrap;
+  font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+td:first-child{width:99%;line-height:1.5}
+/* 施設名そのものが導線。指で押せる高さを確保する */
+td:first-child a{display:block;padding:6px 0;min-height:32px;text-decoration:none;
+  font-weight:600}
+td:first-child a:hover{text-decoration:underline}
+.cta{display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center;
+  min-height:56px;margin:14px 0 6px;padding:11px 16px;border-radius:7px;
+  background:var(--accent);color:var(--bg);text-decoration:none;text-align:center;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif}
+.cta:hover{filter:brightness(1.08)}
+.cta-n{font-size:12.5px;opacity:.85;line-height:1.4}
+.cta-t{font-size:15.5px;font-weight:700;letter-spacing:.02em}
+.pick{border:1px solid var(--accent);border-radius:7px;padding:16px 16px 12px;
+  background:var(--tint);margin:16px 0}
+.pick-l{font-size:11.5px;letter-spacing:.12em;color:var(--accent);font-weight:700;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif;margin-bottom:6px}
+.pick-n{font-size:17px;font-weight:700;line-height:1.5}
+.pick-m{margin-top:6px;color:var(--fg);font-size:14px;
+  font-family:ui-monospace,Menlo,monospace}
+.pick-w{margin-top:4px;color:var(--muted);font-size:12.5px}
 .chart{width:100%;height:auto;color:var(--accent);margin:14px 0;display:block}
 .pref{margin:30px 0 8px;font-size:15px;color:var(--muted);letter-spacing:.14em;
   border-bottom:1px solid var(--line);padding-bottom:5px}
