@@ -59,5 +59,8 @@ td:first-child a:hover{text-decoration:underline}
   border:1px solid var(--line);color:var(--muted);margin-right:6px}
 .lv.low{color:#2f7d55;border-color:#9ccdb2}
 .lv.high{color:var(--warm);border-color:#e0c092}
+.hub-link{margin:0 0 24px}
+.hub-link a{display:inline-block;padding:12px 16px;border:1px solid var(--accent);border-radius:8px;
+  color:var(--accent);text-decoration:none;font-weight:600;min-height:44px}
 footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);
   color:var(--muted);font-size:12.5px}
