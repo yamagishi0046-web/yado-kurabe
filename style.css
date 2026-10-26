@@ -77,6 +77,10 @@ footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:v
 .hero-s{margin-top:6px;font-size:14px;color:var(--muted)}
 .hero-s b{color:var(--fg)}
 .hero-why{margin:10px 0 0;font-size:14px;line-height:1.65}
+.faq h3{border:0;margin:18px 0 4px;padding:0 0 0 26px;position:relative;font-size:15px}
+.faq h3::before{content:"Q";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:3px;background:var(--brand);color:#fff;font-size:12px;display:flex;align-items:center;justify-content:center}
+.faq p{margin:0 0 6px;padding-left:26px}
+.faq p.faq-n{padding:0;margin-top:14px;color:var(--muted);font-size:12.5px}
 details.more{margin:16px 0;border:1px solid var(--line);border-radius:4px;padding:0 14px;background:#fff}
 details.more summary{cursor:pointer;padding:11px 0;font-weight:700;font-size:14.5px;list-style:none;display:flex;align-items:center;gap:8px}
 details.more summary::-webkit-details-marker{display:none}
