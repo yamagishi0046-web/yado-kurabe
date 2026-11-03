@@ -2,7 +2,7 @@
 
 **サイト: https://yamagishi0046-web.github.io/yado-kurabe/**
 
-楽天トラベルの施設情報を毎日1回自動で取得し、全国21都道府県・83エリアのホテル・旅館の1泊あたりの最低料金を記録して、エリアごとの料金相場と水準（落ち着いている／平年並み／高め）を公開しています。
+楽天トラベルの施設情報を毎日1回自動で取得し、全国27都道府県・105エリアのホテル・旅館の1泊あたりの最低料金を記録して、エリアごとの料金相場と水準（落ち着いている／平年並み／高め）を公開しています。
 
 - 料金は各施設のいちばん安いプランの金額で、泊まる日ごとの料金ではありません。各ページの数字は集計日つきで載せています
 - 記事はプログラムが毎日検査（PR表記・誇大表現・データ鮮度・数値の整合）してから公開します
@@ -10,9 +10,16 @@
 
 ## ページ一覧
 
-- [トップ（83エリアの料金相場と水準）](https://yamagishi0046-web.github.io/yado-kurabe/)
+- [トップ（105エリアの料金相場と水準）](https://yamagishi0046-web.github.io/yado-kurabe/)
 - [今日値下がりした宿（全国）](https://yamagishi0046-web.github.io/yado-kurabe/drops/)
 
+
+### 三重県
+
+- [伊勢・二見のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/mie-ise/)
+- [四日市・桑名・湯の山温泉・長島温泉のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/mie-yunoyama/)
+- [志摩・賢島のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/mie-shima/)
+- [鳥羽のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/mie-toba/)
 
 ### 京都府
 
@@ -35,12 +42,24 @@
 - [稚内・留萌・利尻・礼文のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/hokkaido-wakkanai/)
 - [網走・紋別・北見・知床のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/hokkaido-abashiri/)
 
+### 千葉県
+
+- [千葉のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/chiba-chiba/)
+- [成田・成田空港・佐倉のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/chiba-narita/)
+- [舞浜・浦安・船橋・幕張のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/chiba-keiyo/)
+- [館山・南房総・白浜・千倉のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/chiba-tateyama/)
+
 ### 和歌山県
 
 - [南紀白浜・紀伊田辺・龍神のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/wakayama-shirahama/)
 - [和歌山・加太・和歌浦のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/wakayama-wakayama/)
 - [御坊・有田・海南・日高のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/wakayama-gobo/)
 - [高野山・橋本のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/wakayama-Kihoku/)
+
+### 大分県
+
+- [別府のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/oita-beppu/)
+- [由布院・湯布院のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/oita-yufuin/)
 
 ### 大阪府
 
@@ -55,6 +74,20 @@
 - [松島・塩釜・石巻・南三陸・気仙沼のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/miyagi-matsushima/)
 - [秋保・作並のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/miyagi-akiu/)
 - [鳴子・古川・くりこま高原のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/miyagi-naruko/)
+
+### 山梨県
+
+- [山中湖・忍野のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/yamanashi-yamanakako/)
+- [河口湖・富士吉田・西湖・本栖湖のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/yamanashi-kawaguchiko/)
+- [甲府・湯村・昇仙峡のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/yamanashi-kofu/)
+- [石和温泉・勝沼・山梨市のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/yamanashi-isawa/)
+
+### 岐阜県
+
+- [下呂温泉のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/gifu-gero/)
+- [奥飛騨・新穂高のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/gifu-okuhida/)
+- [岐阜・各務原のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/gifu-gifu/)
+- [高山・飛騨のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/gifu-takayama/)
 
 ### 広島県
 
@@ -124,6 +157,13 @@
 - [川崎のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/kanagawa-kawasaki/)
 - [横浜のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/kanagawa-yokohama/)
 - [箱根のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/kanagawa-hakone/)
+
+### 福岡県
+
+- [久留米・甘木・原鶴温泉のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/fukuoka-kurume/)
+- [北九州のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/fukuoka-kitakyushu/)
+- [博多・キャナルシティ・海の中道・太宰府のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/fukuoka-hakata/)
+- [天神・中洲・薬院・糸島のホテル・宿の料金相場](https://yamagishi0046-web.github.io/yado-kurabe/fukuoka-tenjin/)
 
 ### 群馬県
 
